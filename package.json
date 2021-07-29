@@ -15,6 +15,7 @@
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/typography": "^0.4.1",
     "@types/next": "^9.0.0",
+    "async-call-rpc": "^5.1.0",
     "autoprefixer": "^10.2.5",
     "fido2-lib": "^2.6.3",
     "gray-matter": "^4.0.2",

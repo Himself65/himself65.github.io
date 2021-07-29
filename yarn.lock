@@ -787,6 +787,11 @@ astral-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
+async-call-rpc@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/async-call-rpc/-/async-call-rpc-5.1.0.tgz#60da7c3dac70186e331d3bef5e44f5c9b407d920"
+  integrity sha512-Z5fMp8Z96NfDXmFXDQJhGNA5PsgXxCqEcP4pp8HB9ciBLigKbwOdM9I+wSY8ATE7nRj+PnUcnq5FSokqKB/TLw==
+
 at-least-node@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"

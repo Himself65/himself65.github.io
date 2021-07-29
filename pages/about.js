@@ -1,8 +1,18 @@
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import { PageSeo } from '@/components/SEO'
+import { useEffect } from 'react'
 
 export default function About() {
+  useEffect(() => {
+    console.log('start login init')
+    import('../lib/maskbook').then(async ({ default: server }) => {
+      server.then(({ loginWithMask }) => {
+        loginWithMask('hello')
+      })
+    })
+    console.log('start login init success!')
+  }, [])
   return (
     <>
       <PageSeo

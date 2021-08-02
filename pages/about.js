@@ -2,13 +2,11 @@ import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import { PageSeo } from '@/components/SEO'
 import { useEffect } from 'react'
-import server from '../lib/maskbook'
 
 export default function About() {
   useEffect(() => {
-    server.then(({ loginWithMask }) => {
-      loginWithMask('hello')
-    })
+    // eslint-disable-next-line no-undef
+    console.log(globalThis.maskwebauthn)
   }, [])
   return (
     <>

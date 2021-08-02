@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 export default function About() {
   useEffect(() => {
     // eslint-disable-next-line no-undef
-    console.log(globalThis.maskwebauthn)
+    console.log(globalThis.masklogin)
   }, [])
   return (
     <>

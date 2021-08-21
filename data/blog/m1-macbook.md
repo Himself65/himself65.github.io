@@ -17,6 +17,14 @@ MacBook Pro 13-inch, M1 芯片, 16GB 内存, 1TB SSD
 
 ## 使用
 
+### 问题
+
+#### 外放扬声器爆音
+
+```shell
+sudo killall -9 coreaudiod
+```
+
 ### 软件
 
 以下列出一些个人使用的 App，和一些使用须知。

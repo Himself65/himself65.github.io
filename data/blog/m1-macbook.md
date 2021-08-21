@@ -19,6 +19,30 @@ MacBook Pro 13-inch, M1 芯片, 16GB 内存, 1TB SSD
 
 ### 问题
 
+#### 切换内核
+
+1. 开机长按电源键，启动恢复模式
+
+2. 进入终端，首先关闭系统硬盘保护
+
+   ```shell
+   bputil -n -k -c -a -s
+   csrutil disable
+   csrutil authenticated-root disable
+   ```
+
+3. 切换内核
+
+   ```shell
+   kmutil configure-book -c /path/to/kernel -v /Volumes/Macintosh\ HD/
+   ```
+
+4. 恢复回原先的内核
+
+   ```shell
+   bputil -n pol change
+   ```
+
 #### 外放扬声器爆音
 
 ```shell
